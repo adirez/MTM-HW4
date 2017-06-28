@@ -1,0 +1,3 @@
+C:/Adi/Documents/Technion/Semester2/MTM/HW/HW4/WetPart/PartOne/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Adi/Documents/Technion/Semester2/MTM/HW/HW4/WetPart/PartOne/cmake-build-debug/CMakeFiles/PartOne.dir
+C:/Adi/Documents/Technion/Semester2/MTM/HW/HW4/WetPart/PartOne/cmake-build-debug/CMakeFiles/rebuild_cache.dir
