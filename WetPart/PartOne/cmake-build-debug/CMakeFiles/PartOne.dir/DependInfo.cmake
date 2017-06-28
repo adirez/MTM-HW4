@@ -1,10 +1,19 @@
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "C"
   "CXX"
   )
 # The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_C
+  "C:/Adi/Documents/Technion/Semester2/MTM/HW/HW4/WetPart/PartOne/EscapeRoom.c" "C:/Adi/Documents/Technion/Semester2/MTM/HW/HW4/WetPart/PartOne/cmake-build-debug/CMakeFiles/PartOne.dir/EscapeRoom.c.obj"
+  )
+set(CMAKE_C_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_C_TARGET_INCLUDE_PATH
+  )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Adi/Documents/Technion/Semester2/MTM/HW/HW4/WetPart/PartOne/main.cpp" "C:/Adi/Documents/Technion/Semester2/MTM/HW/HW4/WetPart/PartOne/cmake-build-debug/CMakeFiles/PartOne.dir/main.cpp.obj"
+  "C:/Adi/Documents/Technion/Semester2/MTM/HW/HW4/WetPart/PartOne/EscapeRoomWrapper.cpp" "C:/Adi/Documents/Technion/Semester2/MTM/HW/HW4/WetPart/PartOne/cmake-build-debug/CMakeFiles/PartOne.dir/EscapeRoomWrapper.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

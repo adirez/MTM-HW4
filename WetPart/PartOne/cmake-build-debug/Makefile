@@ -122,32 +122,59 @@ PartOne/fast:
 	$(MAKE) -f CMakeFiles\PartOne.dir\build.make CMakeFiles/PartOne.dir/build
 .PHONY : PartOne/fast
 
-main.obj: main.cpp.obj
+EscapeRoom.obj: EscapeRoom.c.obj
 
-.PHONY : main.obj
+.PHONY : EscapeRoom.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\PartOne.dir\build.make CMakeFiles/PartOne.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+EscapeRoom.c.obj:
+	$(MAKE) -f CMakeFiles\PartOne.dir\build.make CMakeFiles/PartOne.dir/EscapeRoom.c.obj
+.PHONY : EscapeRoom.c.obj
 
-main.i: main.cpp.i
+EscapeRoom.i: EscapeRoom.c.i
 
-.PHONY : main.i
+.PHONY : EscapeRoom.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\PartOne.dir\build.make CMakeFiles/PartOne.dir/main.cpp.i
-.PHONY : main.cpp.i
+EscapeRoom.c.i:
+	$(MAKE) -f CMakeFiles\PartOne.dir\build.make CMakeFiles/PartOne.dir/EscapeRoom.c.i
+.PHONY : EscapeRoom.c.i
 
-main.s: main.cpp.s
+EscapeRoom.s: EscapeRoom.c.s
 
-.PHONY : main.s
+.PHONY : EscapeRoom.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\PartOne.dir\build.make CMakeFiles/PartOne.dir/main.cpp.s
-.PHONY : main.cpp.s
+EscapeRoom.c.s:
+	$(MAKE) -f CMakeFiles\PartOne.dir\build.make CMakeFiles/PartOne.dir/EscapeRoom.c.s
+.PHONY : EscapeRoom.c.s
+
+EscapeRoomWrapper.obj: EscapeRoomWrapper.cpp.obj
+
+.PHONY : EscapeRoomWrapper.obj
+
+# target to build an object file
+EscapeRoomWrapper.cpp.obj:
+	$(MAKE) -f CMakeFiles\PartOne.dir\build.make CMakeFiles/PartOne.dir/EscapeRoomWrapper.cpp.obj
+.PHONY : EscapeRoomWrapper.cpp.obj
+
+EscapeRoomWrapper.i: EscapeRoomWrapper.cpp.i
+
+.PHONY : EscapeRoomWrapper.i
+
+# target to preprocess a source file
+EscapeRoomWrapper.cpp.i:
+	$(MAKE) -f CMakeFiles\PartOne.dir\build.make CMakeFiles/PartOne.dir/EscapeRoomWrapper.cpp.i
+.PHONY : EscapeRoomWrapper.cpp.i
+
+EscapeRoomWrapper.s: EscapeRoomWrapper.cpp.s
+
+.PHONY : EscapeRoomWrapper.s
+
+# target to generate assembly for a file
+EscapeRoomWrapper.cpp.s:
+	$(MAKE) -f CMakeFiles\PartOne.dir\build.make CMakeFiles/PartOne.dir/EscapeRoomWrapper.cpp.s
+.PHONY : EscapeRoomWrapper.cpp.s
 
 # Help Target
 help:
@@ -158,9 +185,12 @@ help:
 	@echo ... edit_cache
 	@echo ... PartOne
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... EscapeRoom.obj
+	@echo ... EscapeRoom.i
+	@echo ... EscapeRoom.s
+	@echo ... EscapeRoomWrapper.obj
+	@echo ... EscapeRoomWrapper.i
+	@echo ... EscapeRoomWrapper.s
 .PHONY : help
 
 
