@@ -17,6 +17,7 @@ namespace escaperoom{
     } Difficulty;
 
     class Enigma{
+
     public:
 
         // Constructs a new Enigma with the specified data.
@@ -74,6 +75,20 @@ namespace escaperoom{
         string getName() const;
 
 
+    private:
+
+        /**
+        * the fields of Enigma
+        */
+        std::string name;
+        Difficulty difficulty;
+        int numOfElements;
+
+        /**
+         * returns the number of elements of the enigma
+         * @return - an integer representing numOfElements
+         */
+        int getNumOfElements() const;
     };
 
     std::ostream& operator<<(std::ostream& output, const Enigma& enigma);
