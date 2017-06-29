@@ -56,43 +56,69 @@ include CMakeFiles/PartOne.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/PartOne.dir/flags.make
 
-CMakeFiles/PartOne.dir/main.cpp.obj: CMakeFiles/PartOne.dir/flags.make
-CMakeFiles/PartOne.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Adi\Documents\Technion\Semester2\MTM\HW\HW4\WetPart\PartOne\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PartOne.dir/main.cpp.obj"
-	C:\TDM-GCC-64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PartOne.dir\main.cpp.obj -c C:\Adi\Documents\Technion\Semester2\MTM\HW\HW4\WetPart\PartOne\main.cpp
+CMakeFiles/PartOne.dir/EscapeRoom.c.obj: CMakeFiles/PartOne.dir/flags.make
+CMakeFiles/PartOne.dir/EscapeRoom.c.obj: ../EscapeRoom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Adi\Documents\Technion\Semester2\MTM\HW\HW4\WetPart\PartOne\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/PartOne.dir/EscapeRoom.c.obj"
+	C:\TDM-GCC-64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PartOne.dir\EscapeRoom.c.obj   -c C:\Adi\Documents\Technion\Semester2\MTM\HW\HW4\WetPart\PartOne\EscapeRoom.c
 
-CMakeFiles/PartOne.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PartOne.dir/main.cpp.i"
-	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Adi\Documents\Technion\Semester2\MTM\HW\HW4\WetPart\PartOne\main.cpp > CMakeFiles\PartOne.dir\main.cpp.i
+CMakeFiles/PartOne.dir/EscapeRoom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PartOne.dir/EscapeRoom.c.i"
+	C:\TDM-GCC-64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Adi\Documents\Technion\Semester2\MTM\HW\HW4\WetPart\PartOne\EscapeRoom.c > CMakeFiles\PartOne.dir\EscapeRoom.c.i
 
-CMakeFiles/PartOne.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PartOne.dir/main.cpp.s"
-	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Adi\Documents\Technion\Semester2\MTM\HW\HW4\WetPart\PartOne\main.cpp -o CMakeFiles\PartOne.dir\main.cpp.s
+CMakeFiles/PartOne.dir/EscapeRoom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PartOne.dir/EscapeRoom.c.s"
+	C:\TDM-GCC-64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Adi\Documents\Technion\Semester2\MTM\HW\HW4\WetPart\PartOne\EscapeRoom.c -o CMakeFiles\PartOne.dir\EscapeRoom.c.s
 
-CMakeFiles/PartOne.dir/main.cpp.obj.requires:
+CMakeFiles/PartOne.dir/EscapeRoom.c.obj.requires:
 
-.PHONY : CMakeFiles/PartOne.dir/main.cpp.obj.requires
+.PHONY : CMakeFiles/PartOne.dir/EscapeRoom.c.obj.requires
 
-CMakeFiles/PartOne.dir/main.cpp.obj.provides: CMakeFiles/PartOne.dir/main.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\PartOne.dir\build.make CMakeFiles/PartOne.dir/main.cpp.obj.provides.build
-.PHONY : CMakeFiles/PartOne.dir/main.cpp.obj.provides
+CMakeFiles/PartOne.dir/EscapeRoom.c.obj.provides: CMakeFiles/PartOne.dir/EscapeRoom.c.obj.requires
+	$(MAKE) -f CMakeFiles\PartOne.dir\build.make CMakeFiles/PartOne.dir/EscapeRoom.c.obj.provides.build
+.PHONY : CMakeFiles/PartOne.dir/EscapeRoom.c.obj.provides
 
-CMakeFiles/PartOne.dir/main.cpp.obj.provides.build: CMakeFiles/PartOne.dir/main.cpp.obj
+CMakeFiles/PartOne.dir/EscapeRoom.c.obj.provides.build: CMakeFiles/PartOne.dir/EscapeRoom.c.obj
+
+
+CMakeFiles/PartOne.dir/EscapeRoomWrapper.cpp.obj: CMakeFiles/PartOne.dir/flags.make
+CMakeFiles/PartOne.dir/EscapeRoomWrapper.cpp.obj: ../EscapeRoomWrapper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Adi\Documents\Technion\Semester2\MTM\HW\HW4\WetPart\PartOne\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PartOne.dir/EscapeRoomWrapper.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PartOne.dir\EscapeRoomWrapper.cpp.obj -c C:\Adi\Documents\Technion\Semester2\MTM\HW\HW4\WetPart\PartOne\EscapeRoomWrapper.cpp
+
+CMakeFiles/PartOne.dir/EscapeRoomWrapper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PartOne.dir/EscapeRoomWrapper.cpp.i"
+	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Adi\Documents\Technion\Semester2\MTM\HW\HW4\WetPart\PartOne\EscapeRoomWrapper.cpp > CMakeFiles\PartOne.dir\EscapeRoomWrapper.cpp.i
+
+CMakeFiles/PartOne.dir/EscapeRoomWrapper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PartOne.dir/EscapeRoomWrapper.cpp.s"
+	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Adi\Documents\Technion\Semester2\MTM\HW\HW4\WetPart\PartOne\EscapeRoomWrapper.cpp -o CMakeFiles\PartOne.dir\EscapeRoomWrapper.cpp.s
+
+CMakeFiles/PartOne.dir/EscapeRoomWrapper.cpp.obj.requires:
+
+.PHONY : CMakeFiles/PartOne.dir/EscapeRoomWrapper.cpp.obj.requires
+
+CMakeFiles/PartOne.dir/EscapeRoomWrapper.cpp.obj.provides: CMakeFiles/PartOne.dir/EscapeRoomWrapper.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\PartOne.dir\build.make CMakeFiles/PartOne.dir/EscapeRoomWrapper.cpp.obj.provides.build
+.PHONY : CMakeFiles/PartOne.dir/EscapeRoomWrapper.cpp.obj.provides
+
+CMakeFiles/PartOne.dir/EscapeRoomWrapper.cpp.obj.provides.build: CMakeFiles/PartOne.dir/EscapeRoomWrapper.cpp.obj
 
 
 # Object files for target PartOne
 PartOne_OBJECTS = \
-"CMakeFiles/PartOne.dir/main.cpp.obj"
+"CMakeFiles/PartOne.dir/EscapeRoom.c.obj" \
+"CMakeFiles/PartOne.dir/EscapeRoomWrapper.cpp.obj"
 
 # External object files for target PartOne
 PartOne_EXTERNAL_OBJECTS =
 
-PartOne.exe: CMakeFiles/PartOne.dir/main.cpp.obj
+PartOne.exe: CMakeFiles/PartOne.dir/EscapeRoom.c.obj
+PartOne.exe: CMakeFiles/PartOne.dir/EscapeRoomWrapper.cpp.obj
 PartOne.exe: CMakeFiles/PartOne.dir/build.make
 PartOne.exe: CMakeFiles/PartOne.dir/linklibs.rsp
 PartOne.exe: CMakeFiles/PartOne.dir/objects1.rsp
 PartOne.exe: CMakeFiles/PartOne.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Adi\Documents\Technion\Semester2\MTM\HW\HW4\WetPart\PartOne\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable PartOne.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Adi\Documents\Technion\Semester2\MTM\HW\HW4\WetPart\PartOne\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable PartOne.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\PartOne.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,7 +126,8 @@ CMakeFiles/PartOne.dir/build: PartOne.exe
 
 .PHONY : CMakeFiles/PartOne.dir/build
 
-CMakeFiles/PartOne.dir/requires: CMakeFiles/PartOne.dir/main.cpp.obj.requires
+CMakeFiles/PartOne.dir/requires: CMakeFiles/PartOne.dir/EscapeRoom.c.obj.requires
+CMakeFiles/PartOne.dir/requires: CMakeFiles/PartOne.dir/EscapeRoomWrapper.cpp.obj.requires
 
 .PHONY : CMakeFiles/PartOne.dir/requires
 

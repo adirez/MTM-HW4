@@ -1,5 +1,10 @@
-#ifndef ESCAPEROOMWRAPPER_H
-#define ESCAPEROOMWRAPPER_H
+//
+// Created by adire on 28-Jun-17.
+//
+
+#ifndef PARTONE_ESCAPEROOMWRAPPER_H
+#define PARTONE_ESCAPEROOMWRAPPER_H
+
 
 #include <string>
 #include <iostream>
@@ -7,93 +12,95 @@
 
 
 namespace mtm{
-namespace escaperoom {
+    namespace escaperoom {
 
-    class EscapeRoomWrapper{
-    public:
-        // Constructs a new Escape Room with the specified data.
-        //
-        // @param name : the name of the escape room.
-        // @param escapeTime : the maximal escape time allowed in the room.
-        // @param level : the level of the escape room.
-        // @param maxParticipants: the maximal participants allowed in the room.
-        // The rest of the room's data is initialized as described in the exercise sheet.
-        // @throws EscapeRoomMemoryProblemException in case of creation failure.
-        EscapeRoomWrapper(char* name, const int& escapeTime, const int& level, const int& maxParticipants);
+        class EscapeRoomWrapper{
 
-        // Constructs a new Escape Room with the specified data.
-        //
-        // @param name : the name of the enigma.
-        // @param level : the level of the escape room.
-        // The rest of the room's data is initialized as described in the exercise sheet.
-        // @throws EscapeRoomMemoryProblemException in case of creation failure.
-        EscapeRoomWrapper(char* name, const int& level);
+            EscapeRoom escape_room;
 
-        //copy constructor
-        //
-        //@param room : the room to be copied.
-        //@throws EscapeRoomMemoryProblemException in case of creation failure.
-        EscapeRoomWrapper(const EscapeRoomWrapper& room);
+        public:
+            // Constructs a new Escape Room with the specified data.
+            //
+            // @param name : the name of the escape room.
+            // @param escapeTime : the maximal escape time allowed in the room.
+            // @param level : the level of the escape room.
+            // @param maxParticipants: the maximal participants allowed in the room.
+            // The rest of the room's data is initialized as described in the exercise sheet.
+            // @throws EscapeRoomMemoryProblemException in case of creation failure.
+            EscapeRoomWrapper(char* name, const int& escapeTime, const int& level, const int& maxParticipants);
 
-        //assignment operator
-        //
-        //@param room : the room to be assigned.
-        EscapeRoomWrapper& operator=(const EscapeRoomWrapper& room);
+            // Constructs a new Escape Room with the specified data.
+            //
+            // @param name : the name of the enigma.
+            // @param level : the level of the escape room.
+            // The rest of the room's data is initialized as described in the exercise sheet.
+            // @throws EscapeRoomMemoryProblemException in case of creation failure.
+            EscapeRoomWrapper(char* name, const int& level);
 
-        // Comparison operators for Escape Rooms. rooms are compared as described in
-        // the exercise sheet.
-        //
-        // @param room : the right-hand side operand.
-        bool operator==(const EscapeRoomWrapper& room) const;
-        bool operator!=(const EscapeRoomWrapper& room) const;
-        bool operator<(const EscapeRoomWrapper& room) const;
-        bool operator>(const EscapeRoomWrapper& room) const;
+            //copy constructor
+            //
+            //@param room : the room to be copied.
+            //@throws EscapeRoomMemoryProblemException in case of creation failure.
+            EscapeRoomWrapper(const EscapeRoomWrapper& room);
 
-        bool operator<=(const EscapeRoomWrapper& room) const = delete;
-        bool operator>=(const EscapeRoomWrapper& room) const = delete;
+            //assignment operator
+            //
+            //@param room : the room to be assigned.
+            EscapeRoomWrapper& operator=(const EscapeRoomWrapper& room);
 
-        // return the level of the Escape Room.
-        //
-        int level() const;
+            // Comparison operators for Escape Rooms. rooms are compared as described in
+            // the exercise sheet.
+            //
+            // @param room : the right-hand side operand.
+            bool operator==(const EscapeRoomWrapper& room) const;
+            bool operator!=(const EscapeRoomWrapper& room) const;
+            bool operator<(const EscapeRoomWrapper& room) const;
+            bool operator>(const EscapeRoomWrapper& room) const;
 
-        // the method changes the rate according to the rate given.
-        //
-        // @param newRate : the new rate accepted to the room.
-        //@throws EscapeRoomIllegalRateException in case of illegal rate parameter.
-        void rate(const int& newRate);
+            bool operator<=(const EscapeRoomWrapper& room) const = delete;
+            bool operator>=(const EscapeRoomWrapper& room) const = delete;
 
-        // Destructor for EscapeRoomWrapper
-        ~EscapeRoomWrapper();
+            // return the level of the Escape Room.
+            //
+            int level() const;
 
-        // Prints the data of the Room in the following format:
-        //
-        //     "<name> (<maxTime>/<level>/<maxParticipants>)"
-        //
-        // @param output : the output stream to which the data is printed.
-        // @param room : the room whose data is printed.
-        friend std::ostream& operator<<(std::ostream& output, const EscapeRoomWrapper& room);
+            // the method changes the rate according to the rate given.
+            //
+            // @param newRate : the new rate accepted to the room.
+            //@throws EscapeRoomIllegalRateException in case of illegal rate parameter.
+            void rate(const int& newRate);
 
-        //Function returns the name of the EscapeRoom.
-        //
-        std::string getName() const;
+            // Destructor for EscapeRoomWrapper
+            ~EscapeRoomWrapper();
 
-        //Function returns the rate of the EscapeRoom.
-        //
-        double getRate() const;
+            // Prints the data of the Room in the following format:
+            //
+            //     "<name> (<maxTime>/<level>/<maxParticipants>)"
+            //
+            // @param output : the output stream to which the data is printed.
+            // @param room : the room whose data is printed.
+            friend std::ostream& operator<<(std::ostream& output, const EscapeRoomWrapper& room);
 
-        //Function returns the maximum escape time of the EscapeRoom.
-        //
-        int getMaxTime() const;
+            //Function returns the name of the EscapeRoom.
+            //
+            std::string getName() const;
 
-        //Function returns the number of participants allowed in the EscapeRoom.
-        //
-        int getMaxParticipants() const;
+            //Function returns the rate of the EscapeRoom.
+            //
+            double getRate() const;
 
-    };
+            //Function returns the maximum escape time of the EscapeRoom.
+            //
+            int getMaxTime() const;
 
-    std::ostream& operator<<(std::ostream& output, const EscapeRoomWrapper& room);
-} // end of namespace eascaperoom
+            //Function returns the number of participants allowed in the EscapeRoom.
+            //
+            int getMaxParticipants() const;
+
+        };
+
+        std::ostream& operator<<(std::ostream& output, const EscapeRoomWrapper& room);
+    } // end of namespace eascaperoom
 } // end of namespace mtm
 
-
-#endif //ESCAPEROOMWRAPPER_H
+#endif //PARTONE_ESCAPEROOMWRAPPER_H

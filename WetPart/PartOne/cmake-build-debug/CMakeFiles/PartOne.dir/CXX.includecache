@@ -6,7 +6,19 @@
 
 #IncludeRegexTransform: 
 
-C:/Adi/Documents/Technion/Semester2/MTM/HW/HW4/WetPart/PartOne/main.cpp
+C:/Adi/Documents/Technion/Semester2/MTM/HW/HW4/WetPart/PartOne/EscapeRoom.h
+stdbool.h
+-
+
+C:/Adi/Documents/Technion/Semester2/MTM/HW/HW4/WetPart/PartOne/EscapeRoomWrapper.cpp
+EscapeRoomWrapper.h
+C:/Adi/Documents/Technion/Semester2/MTM/HW/HW4/WetPart/PartOne/EscapeRoomWrapper.h
+
+C:/Adi/Documents/Technion/Semester2/MTM/HW/HW4/WetPart/PartOne/EscapeRoomWrapper.h
+string
+-
 iostream
 -
+EscapeRoom.h
+C:/Adi/Documents/Technion/Semester2/MTM/HW/HW4/WetPart/PartOne/EscapeRoom.h
 

@@ -82,7 +82,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Adi/Documents/Technion/Semester2/MTM/HW/HW4/WetPart/PartOne/main.cpp">
+		<Unit filename="C:/Adi/Documents/Technion/Semester2/MTM/HW/HW4/WetPart/PartOne/Enigma.h">
+			<Option target="PartOne"/>
+		</Unit>
+		<Unit filename="C:/Adi/Documents/Technion/Semester2/MTM/HW/HW4/WetPart/PartOne/EscapeRoom.c">
+			<Option target="PartOne"/>
+		</Unit>
+		<Unit filename="C:/Adi/Documents/Technion/Semester2/MTM/HW/HW4/WetPart/PartOne/EscapeRoom.h">
+			<Option target="PartOne"/>
+		</Unit>
+		<Unit filename="C:/Adi/Documents/Technion/Semester2/MTM/HW/HW4/WetPart/PartOne/EscapeRoomWrapper.cpp">
+			<Option target="PartOne"/>
+		</Unit>
+		<Unit filename="C:/Adi/Documents/Technion/Semester2/MTM/HW/HW4/WetPart/PartOne/EscapeRoomWrapper.h">
+			<Option target="PartOne"/>
+		</Unit>
+		<Unit filename="C:/Adi/Documents/Technion/Semester2/MTM/HW/HW4/WetPart/PartOne/Exceptions.h">
 			<Option target="PartOne"/>
 		</Unit>
 		<Unit filename="C:/Adi/Documents/Technion/Semester2/MTM/HW/HW4/WetPart/PartOne/CMakeLists.txt">
